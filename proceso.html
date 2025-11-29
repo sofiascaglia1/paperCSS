@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    body {
+      background-image: url("imagenes/Gemini_Generated_Image_vf8tkovf8tkovf8t.png");
+      /* Ruta de tu imagen */
+      background-size: cover;
+      /* La imagen cubre toda la pantalla */
+      background-repeat: no-repeat;
+      /* No se repite */
+      background-position: center;
+      /* Centrada */
+      margin: 0;
+    }
+  </style>
+  <nav class="border fixed split-nav">
+    <div class="nav-brand">
+      <h3><a href="index.html">Gravity Falls</a></h3>
+    </div>
+    <div class="collapsible">
+      <input id="collapsible1" type="checkbox" name="collapsible1">
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+      <div class="collapsible-body">
+        <ul class="inline">
+          <li><a href="tematica.html">Temática</a></li>
+          <li><a href="proceso.html">Proceso<a></li>
+          <li><a href="equipo.html">Equipo</a></li>
+          <li><a href="juego.html">Jugar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+  <link rel="stylesheet" href="estilogravity.css">
+  <title>Proceso  ·  Tp Final Web</title>
+</head>
+
+<body>
+  <div class="paper container">
+    <div class="row">
+      <div class="col-12 col">
+        <h1>Proceso</h1>
+        <h4>¿Que pasos seguimos para hacer la aventura grafica? </h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col">
+        <h4>Elección de la Temática</h4>
+        <img src="imagenes/1366_2000.png" alt="todos juntos" width="600">
+        <p>Antes de comenzar a producir la aventura, discutimos qué serie o universo narrativo queríamos utilizar.
+          Finalmente elegimos Gravity Falls porque es una serie que nos encanta, tiene una estética muy reconocible y,
+          sobre todo, ofrece un mundo lleno de misterio que se presta perfectamente a una historia interactiva con
+          decisiones.</p>
+      </div>
+      <div class="row">
+        <div class="col-12 col">
+          <h4>Escritura del Guión</h4>
+        </div>
+        <div class="col-8 col">
+          <p>El primer paso creativo fue escribir un guion base.
+            Empezamos redactando una historia lineal, con un único final, y luego trabajamos sobre ella para identificar
+            en qué momentos podían aparecer decisiones alternativas que llevaran al jugador hacia otros caminos y
+            finales
+            posibles.
+            Esta etapa nos permitió definir la trama, los personajes participantes y el tono general de la aventura.</p>
+        </div>
+        <div class="col-4 col">
+          <img src="imagenes/dipper escribiendo.jpeg" alt="todos juntos" width="400">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col">
+          <h4>Diseño del UserFlow</h4>
+          <p>Con el guion listo, realizamos un userflow: un esquema visual donde representamos todos los caminos,
+            bifurcaciones, decisiones del jugador y posibles finales.
+            Esto nos ayudó a ver la estructura completa de la aventura de un vistazo, corregir inconsistencias, ordenar
+            la
+            progresión de escenas y asegurarnos de que todas las rutas fueran claras y coherentes.</p>
+        </div>
+        <div class="col-8 col">
+          <img src="imagenes/Flujo de gravity falls_page-0001.jpg" alt="flujo" width="600">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col">
+          <h4>Generación y edición de imágenes</h4>
+        </div>
+        <div class="col-8 col">
+          <p>Para ilustrar cada parte de la aventura, generamos imágenes utilizando Gemini.Luego, editamos varias de
+            ellas
+            para quitar el fondo o adaptarlas al formato de botones y pantallas que necesitábamos dentro del juego. El
+            objetivo fue mantener una estética similar a la de la serie, pero adaptada al estilo de nuestra aventura
+            gráfica.</p>
+        </div>
+        <div class="col-4 col">
+          <img src="imagenes/image 1.png" alt="flujo" width="200">
+        </div>
+      </div>
+      <h4>Implementación en p5.js</h4>
+      <p>Una vez que la narrativa y las imágenes estuvieron listas, comenzamos la etapa de programación.
+        Construimos la aventura como una máquina de estados, donde cada escena o momento del juego corresponde a un
+        estado
+        distinto.
+        Organizamos todos los textos en arreglos para poder llamarlos según las decisiones del jugador.
+        Incorporamos sonidos tanto para los botones como para acompañar la ambientación con música de fondo.
+        Finalmente ajustamos transiciones, botones y lógica interna para que la experiencia fuera fluida y clara para el
+        usuario.</p>
+    </div>
+  </div>
+    <footer>
+      <p>Tp final web de la materia PIMW- Jorgelina Rotondo y Sofia Scaglia</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+nav {
+  background-color: #49371c !important;
+}
+
+nav a {
+  color: rgb(254, 193, 69) !important;
+}
+
+nav ul:hover {
+color: aquamarine;
+}
+.container{
+  background-color: rgb(130, 154, 93);
+}
+
+h1, h2{
+ color: rgb(206, 119, 56);
+ -webkit-text-stroke: 1px rgb(105, 60, 27);
+}
+h4, h6, p{
+color: #49371c;
+}
+
+.card {
+  border: 3px solid rgb(66, 41, 25) 
+}
+
+footer{
+ background-color: rgb(206, 119, 56);
+}
